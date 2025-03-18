@@ -24,7 +24,7 @@ A patient management backend built using microservices architecture with Java Sp
 
 ## Overview
 
-The Patient Management Backend is designed to support robust patient data handling and administrative tasks in a healthcare environment. Its microservices-based approach breaks down responsibilities into dedicated services including:
+The Patient Management Backend is designed to support robust patient data handling and administrative tasks. Its microservices-based approach breaks down responsibilities into dedicated services including:
 
 - **Patient Service:** Handles patient CRUD operations.
 - **Billing Service:** Manages billing operations via gRPC.
@@ -81,5 +81,5 @@ The project embraces a distributed microservices architecture:
 1. **Clone the Repository:**
 
    ```bash
-   git clone https://github.com/yourusername/patient-management-backend.git
-   cd patient-management-backend
+   git clone https://github.com/yourusername/patient-management.git
+   cd patient-management
