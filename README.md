@@ -20,6 +20,8 @@ A comprehensive patient management backend built using microservices architectur
 
 ---
 
+![Architecture](Architecture.png)
+
 ## Overview
 
 The Patient Management Backend is designed to support robust patient data handling and administrative tasks in a healthcare environment. Its microservices-based approach breaks down responsibilities into dedicated services including:
@@ -48,7 +50,6 @@ The project embraces a distributed microservices architecture:
 - **Deployment:**  
   - Docker and AWS (using LocalStack for local simulation and CloudFormation for infrastructure as code) streamline the deployment process.
 
-![Architecture](Architecture.png)
 
 ---
 
