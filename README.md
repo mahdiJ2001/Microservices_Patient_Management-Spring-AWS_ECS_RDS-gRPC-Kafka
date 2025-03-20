@@ -10,13 +10,7 @@ A patient management backend built using microservices architecture with Java Sp
 - [Architecture](#architecture)
 - [Key Features](#key-features)
 - [Technologies Used](#technologies-used)
-- [Project Timeline](#project-timeline)
 - [Setup & Installation](#setup--installation)
-- [Running Tests](#running-tests)
-- [API Documentation](#api-documentation)
-- [Deployment](#deployment)
-- [Contributing](#contributing)
-- [License](#license)
 
 ---
 
