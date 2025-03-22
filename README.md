@@ -87,12 +87,11 @@ Before deploying, ensure you have the following:
 1. AWS CLI installed and configured on your machine.
 2. LocalStack running locally.
 3. AWS CDK installed.
-
-```bash
-chmod +x localstack-deploy.sh
-./localstack-deploy.sh
+  
+  ```bash
+  chmod +x localstack-deploy.sh
+  ./localstack-deploy.sh
 
 After deployment, the script will provide the DNS name of the load balancer. Use this to access your deployed application:
 
-```bash
 http://<load-balancer-dns-name>:<port>
