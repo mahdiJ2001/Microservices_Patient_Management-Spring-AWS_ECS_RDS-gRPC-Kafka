@@ -11,6 +11,7 @@ A patient management backend built using microservices architecture with Java Sp
 - [Key Features](#key-features)
 - [Technologies Used](#technologies-used)
 - [Setup & Installation](#setup--installation)
+- [Deployment](#Deployment)
 
 ---
 
@@ -77,3 +78,18 @@ The project embraces a distributed microservices architecture:
    ```bash
    git clone https://github.com/yourusername/patient-management.git
    cd patient-management
+
+## Deployment
+
+Prerequisites
+Before deploying, ensure you have the following:
+
+1. AWS CLI installed and configured on your machine.
+2. LocalStack running locally.
+3. AWS CDK installed.
+
+chmod +x localstack-deploy.sh
+./localstack-deploy.sh
+
+After deployment, the script will provide the DNS name of the load balancer. Use this to access your deployed application:
+http://<load-balancer-dns-name>:<port>
