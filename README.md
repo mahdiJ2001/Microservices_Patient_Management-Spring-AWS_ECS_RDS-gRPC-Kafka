@@ -1,4 +1,4 @@
-# Patient Management Backend
+# Patient Management Backend System
 
 A patient management backend built using microservices architecture with Java Spring Boot. This project leverages modern tools and patterns to ensure scalability, resilience, and ease of integration. It features Kafka-based event streaming, gRPC for inter-service communication, JWT-based authentication, and extensive integration testing.
 
